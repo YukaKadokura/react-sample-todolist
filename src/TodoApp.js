@@ -22,7 +22,6 @@ export class TodoApp extends React.Component {
   render() {
     return (
       <div>
-        <h2>test</h2>
         <h2>TodoApp</h2>
         <AddTodo addTodo={this.addTodo} />
         <List todos={this.state.todos} />
